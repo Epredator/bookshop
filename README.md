@@ -74,3 +74,19 @@ EXAMPLES
 
 SEE ALSO
     cds eval  to evaluate and execute JavaScript.
+    
+
+
+cds init
+Use cds init to create new projects.
+
+The simplest form creates a minimal Node.js project. For Java, use
+
+
+cds init --java
+
+
+In addition, you can add (most of) the project 'facets' from below right when creating the project. For example to create a project with a sample bookshop model and configuration for SAP HANA, use:
+
+
+cds init --add sample,hana
